@@ -1,0 +1,95 @@
+.novoTitulo{
+    padding-bottom: 5%;
+}
+
+.novoDivNome{
+    height: 5vh;
+    margin-bottom: 7%;
+}
+
+.novoLblNome{
+    font-size: 100%;
+    width: 15%;
+    padding-left: 5%;
+    float: left;
+}
+
+.novoTxtNome{
+    height: 85%;
+    width: 72%;
+    margin-left: 2%;
+    margin-right: 5%;
+    float: left;
+}
+
+.novoTxtNome::placeholder{
+    font-size: 165%;
+    vertical-align: middle;
+}
+
+.novoDivEmail{
+    height: 5vh;
+    margin-bottom: 7%;
+}
+
+.novoLblEmail{
+    font-size: 100%;
+    width: 15%;
+    padding-left: 5%;
+    float: left;
+}
+
+.novoTxtEmail{
+    height: 85%;
+    width: 72%;
+    margin-left: 2%;
+    margin-right: 5%;
+    float: left;
+}
+
+.novoTxtEmail::placeholder{
+    font-size: 165%;
+    vertical-align: middle;
+}
+
+.novoDivEndereco{
+    height: 5vh;
+    Margin-bottom: 7%;
+}
+
+.novoLblCidade{
+    font-size: 100%;
+    width: 15%;
+    padding-left: 5%;
+    float: left;
+}
+
+.novoTxtCidade{
+    height: 85%;
+    width: 50%;
+    margin-left: 2%;
+    float: left;
+}
+
+.novoTxtCidade::placeholder{
+    font-size:165%;
+    vertical-align: middle;
+}
+
+.novoLblUf{
+    font-size: 100%;
+    width: 7%;
+    padding-left: 1%;
+    float: left;
+}
+
+.novoSelUf{
+    height: 85%;
+    width: 10%;
+    margin-left: 2%;
+    float: left;
+}
+
+.novoDivTelefone{
+    height: 5vh;
+}
