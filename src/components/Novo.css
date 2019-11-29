@@ -1,17 +1,58 @@
+form{
+    background-color: rgba(236, 154, 0, 0.9);
+    border-width: 3px;
+    border-radius: 0.3rem;
+}
+
 .novoTitulo{
+    padding-top: 3%;
     padding-bottom: 5%;
+}
+
+table{
+    display: flexbox;
+    width: 90%;
+    margin-left: 5%;
+}
+
+tr{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+td{
+    padding: 0px;
+}
+
+label{
+    font-weight: bold;
+}
+
+#tdEsq{
+    width: 30%;
+    display: flex;
+}
+
+#tdDir{
+    height: 100%;
+    width: 70%;
+    display: flex;
 }
 
 .novoDivNome{
     height: 5vh;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
 }
-
+/* ************************ */
 .novoLblNome{
-    font-size: 100%;
-    width: 15%;
-    padding-left: 5%;
-    float: left;
+    font-size: 85%;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
 }
 
 .novoTxtNome{
@@ -19,6 +60,197 @@
     width: 72%;
     margin-left: 2%;
     margin-right: 5%;
+    font-size: 80%;
+    float: left;
+}
+
+.novoTxtNome::placeholder{
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+.novoDivEmail{
+    height: 5vh;
+    margin-bottom: 3%;
+}
+
+.novoLblEmail{
+    font-size: 85%;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+}
+
+.novoTxtEmail{
+    height: 85%;
+    width: 72%;
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 80%;
+    float: left;
+}
+
+.novoTxtEmail::placeholder{
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+.novoDivEndereco{
+    height: 5vh;
+    margin-bottom: 3%;
+}
+
+
+
+/* ----------------------------------------- */
+.novoTdLblCidade{
+    width: 30%;
+    float: left;
+    display: flex;
+}
+
+.novoLblCidade{
+    font-size: 85%;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+}
+/* --------------------------------------------- */
+.novoTdTxtCidade{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.novoTxtCidade{
+    height: 85%;
+    width: 100%;
+    margin-left: 2%;
+    font-size: 80%;
+}
+
+.novoTxtCidade::placeholder{
+    font-size:100%;
+    vertical-align: middle;
+}
+
+
+/* --------------------------------------------- */
+.novoTdLblUf{
+    width: 5%;
+    margin-left: 5%;
+    float: right;
+    display: flex;
+}
+
+.novoLblUf{
+    font-size: 85%;
+    font-weight: bold;
+    width: 100%;
+}
+/* --------------------------------------------- */
+.novoTdSelUf{
+    height: 100%;
+    width:10%;
+    padding-right: 17.8%;
+    float: left;
+    display: flex;
+}
+
+.novoSelUf{
+    height: 98.45%;
+    width: 100%;
+    padding: 1px 0px;
+    border-width: 1px;
+    font-size: 80%;
+}
+/* ---------------------------------------------- */
+.novoDivTelefone{
+    height: 5vh;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 5%;
+}
+
+.novoLblTelefone{
+    font-size: 85%;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+    padding-left: 10%;
+}
+
+.novoTxtTelefone{
+    height: 85%;
+    width: 35%;
+    margin-left: 2%;
+    font-size: 80%;
+    float: left;
+}
+
+.novoTxtTelefone::placeholder{
+    font-size:100%;
+    vertical-align: middle;
+}
+
+.novoDivBtnCad{
+    width: 25%;
+    margin-left: 12%;
+    float: right;
+}
+
+/* 
+html,body {
+    background-color: #000;
+}
+
+.title {
+    color:rgb(0, 0, 0);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 20%;
+}
+
+.table {
+    width: 100%; 
+    margin-top: 3%;
+}
+input[type="textField"]{
+    height: 30px;
+    width: 100%;
+}
+select{
+    width: 50%;
+    padding: 10px;
+}
+.novoTitulo{
+    margin-bottom: 5%;
+    color: #000;
+    background-color: rgb(243, 117, 14);
+}
+
+.novoDivNome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 5vh;
+    margin-bottom: 10px;
+    margin-top:50px;
+}
+
+.novoLblNome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+    font-size: 20px;
+    margin-top:20px;
+    width: 15%;
+    padding-left: 5%;
     float: left;
 }
 
@@ -29,21 +261,15 @@
 
 .novoDivEmail{
     height: 5vh;
-    margin-bottom: 7%;
+    margin-bottom: 30%;
+    color :black;
 }
 
 .novoLblEmail{
-    font-size: 100%;
+    background-color: aqua;
+    font-size: 20px;
     width: 15%;
     padding-left: 5%;
-    float: left;
-}
-
-.novoTxtEmail{
-    height: 85%;
-    width: 72%;
-    margin-left: 2%;
-    margin-right: 5%;
     float: left;
 }
 
@@ -53,27 +279,21 @@
 }
 
 .novoDivEndereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
     height: 5vh;
-    Margin-bottom: 7%;
+    Margin-bottom: 30%;
 }
 
 .novoLblCidade{
     font-size: 100%;
-    width: 15%;
-    padding-left: 5%;
+    width: 0%;
+    padding-left: 0%;
     float: left;
-}
-
-.novoTxtCidade{
-    height: 85%;
-    width: 50%;
-    margin-left: 2%;
-    float: left;
-}
-
-.novoTxtCidade::placeholder{
-    font-size:165%;
-    vertical-align: middle;
+    
 }
 
 .novoLblUf{
@@ -83,13 +303,16 @@
     float: left;
 }
 
-.novoSelUf{
-    height: 85%;
-    width: 10%;
-    margin-left: 2%;
-    float: left;
-}
-
 .novoDivTelefone{
     height: 5vh;
+    width: 5%;
+    color: #000
 }
+
+.containerNovo
+{
+    margin-right: 14%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    
+} */
